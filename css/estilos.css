@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ff0000;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #004aad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.goleiro {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.goleiro img {
+    max-width: 280px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+}
