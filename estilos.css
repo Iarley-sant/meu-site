@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    color: #ffffff;
+    line-height: 4.6;
+}
+
+header {
+    background: url('https://assets.gamearena.gg/wp-content/uploads/2024/10/06143748/brasil-6.jpg');
+    height: 90vh;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+    nav {
+      position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 32px;
+    z-index: 1000;
+    color: #ff00d4;
+    margin: 0 90px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+    nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+nav a {
+    color: #ff00d4;
+    margin: 0 90px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav a:hover {
+     text-decoration: underline;
+}
+.goleiro {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.goleiro img {
+    max-width: 280px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+main {
+    padding: 20px;
+}
