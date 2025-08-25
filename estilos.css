@@ -4,16 +4,10 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background: #aaaaaa;
-    color: #000000;
-    line-height: 4.6;
-}
 
 header {
     background: url('https://assets.gamearena.gg/wp-content/uploads/2024/10/06143748/brasil-6.jpg');
-    height: 110vh;
+    height: 100vh;
     color: white;
     padding: 20px;
     text-align: center;
@@ -40,6 +34,9 @@ header {
     display: flex;
     gap: 32px;
 }
+nav ul li{
+    width: 100px;
+}
 
 nav a {
     color: #000000;
@@ -49,7 +46,7 @@ nav a {
     text-align: center;
     border: 2px solid black;
     border-radius: 20px;
-    background-color: antiquewhite;
+    background-color: rgb(166, 255, 92);
     padding: 15px;
 }
 
