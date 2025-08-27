@@ -3,14 +3,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
-
-header {
+ 
+body{
     background: url('https://assets.gamearena.gg/wp-content/uploads/2024/10/06143748/brasil-6.jpg');
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     padding: 20px;
     text-align: center;
+     height: 0vh;
 }
 
     nav {
