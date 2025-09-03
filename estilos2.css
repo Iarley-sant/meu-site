@@ -3,7 +3,7 @@
     padding: 20px;
     max-width: 600px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.1);
     text-align: center;
     background-color: #7c7c7c;
 }
