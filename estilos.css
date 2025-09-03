@@ -43,10 +43,14 @@ nav a {
     text-align: center;
     border: 2px solid black;
     border-radius: 20px;
-    background-color: rgb(166, 255, 92);
+    background-color: rgb(238, 255, 0);
     padding: 15px;
+    
 }
 
 main {
     padding: 20px;
+}
+nav a:hover{
+    transform: scale(1.05);
 }
